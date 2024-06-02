@@ -1,6 +1,5 @@
 {
   "configurations": [
-    
     {
       "name": "Python Debugger: Flask",
       "type": "debugpy",
