@@ -2156,10 +2156,6 @@ input:checked + .toggle-bg {
   margin-bottom: 0.5rem;
 }
 
-.me-4 {
-  margin-inline-end: 1rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -2630,10 +2626,6 @@ input:checked + .toggle-bg {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-.hover\:underline:hover {
-  text-decoration-line: underline;
-}
-
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -2764,10 +2756,6 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 768px) {
-  .md\:me-6 {
-    margin-inline-end: 1.5rem;
-  }
-
   .md\:flex {
     display: flex;
   }
