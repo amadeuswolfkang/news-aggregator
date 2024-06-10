@@ -13,15 +13,36 @@
   </head>
 
   <body>
-    <div class="flex flex-row justify-center mt-20">
-      <article class="prose">
-        <h1>Today</h1>
+    <div class="flex flex-row justify-center gap-16 mt-20 mb-24">
+      <!-- Hacker News Column -->
+      <article class="prose w-1/5">
+        <h1>Hacker News</h1>
         <ol>
-          {% for headline, link in headlines_links %}
+          {% for headline, link in hn_headlines_links %}
           <li><a href="{{ link }}">{{ headline }}</a></li>
           {% endfor %}
         </ol>
       </article>
+
+      <!-- Tech Crunch Column -->
+      <article class="prose w-1/5">
+        <h1>Tech Crunch</h1>
+        <ol>
+          {% for headline, link in tc_headlines_links %}
+          <li><a href="{{ link }}">{{ headline }}</a></li>
+          {% endfor %}
+        </ol>
+      </article>
+
+      <!-- Slashdot Column -->
+      <article class="prose w-1/5">
+        <h1>Slashdot</h1>
+          <ol>
+            {% for headline, link in sd_headlines_links %}
+            <li><a href="{{ link }}">{{ headline }}</a></li>
+            {% endfor %}
+          </ol>
+        </article>
     </div>
 
     <footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">

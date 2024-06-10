@@ -5,6 +5,12 @@ A simple news aggregator app built in Python + Flask. Headlines are scraped usin
 
 # Debugging
 
+## Launch Flask development server
+Run the following:
+```
+flask run
+```
+
 ## Automatically reloading for TailwindCSS
 Run the following command to automatically compile and watch changes for Tailwind CSS: </br>
 ```
